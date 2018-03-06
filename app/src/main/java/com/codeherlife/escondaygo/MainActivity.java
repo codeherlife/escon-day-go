@@ -21,13 +21,13 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = (TextView)this.findViewById(R.id.text_view_title);
         textView.setText(R.string.events_title);
 
-        ArrayList<String> candyList = new ArrayList<String>();
+        ArrayList<String> eventsList = new ArrayList<String>();
 
-        candyList.add("Monday");
-        candyList.add("Tuesday");
-        candyList.add("Wednesday");
-        candyList.add("Thursday");
-        candyList.add("Friday");
+        eventsList.add("Monday");
+        eventsList.add("Tuesday");
+        eventsList.add("Wednesday");
+        eventsList.add("Thursday");
+        eventsList.add("Friday");
 
 
 
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 this,
                 R.layout.list_item_candy,
                 R.id.text_view_candy,
-                candyList
+                eventsList
         );
 
         ListView listView = (ListView)this.findViewById(R.id.list_view_candy);

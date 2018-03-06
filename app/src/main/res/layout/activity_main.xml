@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context="com.codeherlife.escondaygo.MainActivity">
 
-    <ImageView
+   <!-- <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="238dp"
@@ -15,6 +15,7 @@
         app:srcCompat="@drawable/escondaygologo"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="2dp" />
+        -->
 
     <TextView
 

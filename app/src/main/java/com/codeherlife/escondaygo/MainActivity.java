@@ -21,17 +21,29 @@ public class MainActivity extends AppCompatActivity {
         TextView textView = (TextView)this.findViewById(R.id.text_view_title);
         textView.setText(R.string.events_title);
 
-        ArrayList<String> eventsList = new ArrayList<String>();
+        ArrayList<Event> eventsList = new ArrayList<Event>();
 
-        eventsList.add("Monday");
-        eventsList.add("Tuesday");
-        eventsList.add("Wednesday");
-        eventsList.add("Thursday");
-        eventsList.add("Friday");
+        Event e = new Event("Farmer's market");
+        eventsList.add(e);
+
+        eventsList.add(new Event("Crusing Grand"));
+
+//        eventsList.add("Monday");
+//        eventsList.add("Tuesday");
+//        eventsList.add("Wednesday");
+//        eventsList.add("Thursday");
+//        eventsList.add("Friday");
+
+//starting Beth's homework 1)create weekday as int property. 2) make new enum class 3) change weekday to use enum
+       // int weekday;
+
+       // enum WeekDays { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday }
 
 
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(
+        //END BETH"S HOMEWORK SPACE
+
+        ArrayAdapter<Event> adapter = new ArrayAdapter<Event>(
                 this,
                 R.layout.list_item_candy,
                 R.id.text_view_candy,

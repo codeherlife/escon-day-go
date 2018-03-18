@@ -6,32 +6,37 @@ package com.codeherlife.escondaygo;
 
 public class Event {
 
-    //this is the constructor
-    // TODO: modify constructor to accept weekday and set it
-    public Event (String name){
-        Name = name;
+
+    public Event (String name, int weekday){
+
+        this.name = name;
+        this.weekday = weekday;
     }
 
-    public String Name;
-    // TODO:add member that is of type int called Weekday
+    public String name;
+    public int weekday;
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
-    // TODO:add getter for weekday
 
-    // TODO:add setter for weekday
+
+    public void setWeekday(int weekday) {this.weekday = weekday; }
+
+    public int getWeekday(){
+        return weekday;
+    }
 
 
     // methods
     @Override
     public String toString() {
-        return "Event: " + Name;
+        return "Event: " + name;
     }
 
 

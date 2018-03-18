@@ -23,10 +23,10 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<Event> eventsList = new ArrayList<Event>();
 
-        Event e = new Event("Farmer's market");
+        Event e = new Event("Farmer's market", 1);
         eventsList.add(e);
 
-        eventsList.add(new Event("Crusing Grand"));
+        eventsList.add(new Event("Crusing Grand", 2));
 
 //        eventsList.add("Monday");
 //        eventsList.add("Tuesday");
@@ -34,14 +34,6 @@ public class MainActivity extends AppCompatActivity {
 //        eventsList.add("Thursday");
 //        eventsList.add("Friday");
 
-//starting Beth's homework 1)create weekday as int property. 2) make new enum class 3) change weekday to use enum
-       // int weekday;
-
-       // enum WeekDays { Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday }
-
-
-
-        //END BETH"S HOMEWORK SPACE
 
         ArrayAdapter<Event> adapter = new ArrayAdapter<Event>(
                 this,

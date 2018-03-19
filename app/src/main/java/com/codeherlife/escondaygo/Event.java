@@ -6,15 +6,25 @@ package com.codeherlife.escondaygo;
 
 public class Event {
 
+    public enum Weekday {
+        Monday,
+        Tuesday,
+        Wednesday,
+        Thursday,
+        Friday,
+        Saturday,
+        Sunday
+    }
 
-    public Event (String name, int weekday){
+
+    public Event (String name, Weekday day){
 
         this.name = name;
-        this.weekday = weekday;
+        this.day = this.day;
     }
 
     public String name;
-    public int weekday;
+    public Weekday day;
 
     public void setName(String name) {
         this.name = name;
@@ -26,10 +36,10 @@ public class Event {
 
 
 
-    public void setWeekday(int weekday) {this.weekday = weekday; }
+    public void setDay(Weekday day) {this.day = day; }
 
-    public int getWeekday(){
-        return weekday;
+    public Weekday getDay(){
+        return day;
     }
 
 

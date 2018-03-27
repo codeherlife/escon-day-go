@@ -27,7 +27,9 @@ public class MainActivity extends AppCompatActivity {
 
         eventsList.add(new Event("Farmer's market 2:30-6:30 pm on Grand ave", Event.Weekday.Tuesday));
 
-        eventsList.add(new Event("Baby Lapsit story time- Escondido Public Library 10:30-11am", Event.Weekday.Wednesday));
+        eventsList.add(new Event("Baby Lapsit story time- Escondido Public Library, 10:30-11am", Event.Weekday.Wednesday));
+
+        eventsList.add(new Event("Toddler story time- Escondido Public Library, 11am", Event.Weekday.Thursday));
 
         eventsList.add(new Event("Crusing Grand", Event.Weekday.Friday));
 

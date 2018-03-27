@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 Event.Weekday.Monday));
 
 
-        eventsList.add(new Event("Escondido Writers Group (adults)- Escondido Public Library 1-4p",
+        eventsList.add(new Event("Escondido Writers Group (adults)- Escondido Public Library 1-4p- Every first Tuesday",
                 Event.Weekday.Tuesday));
 
 

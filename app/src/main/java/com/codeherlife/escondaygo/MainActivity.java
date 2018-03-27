@@ -23,7 +23,9 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<Event> eventsList = new ArrayList<Event>();
 
-        eventsList.add(new Event("Farmer's market", Event.Weekday.Tuesday));
+        eventsList.add(new Event("Farmer's market 3-7 pm at Welk Resort", Event.Weekday.Monday));
+
+        eventsList.add(new Event("Farmer's market 2:30-6:30 pm on Grand ave", Event.Weekday.Tuesday));
 
         eventsList.add(new Event("Crusing Grand", Event.Weekday.Friday));
 

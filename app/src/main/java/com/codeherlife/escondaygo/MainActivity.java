@@ -25,7 +25,12 @@ public class MainActivity extends AppCompatActivity {
 
         eventsList.add(new Event("Farmer's market- 3-7 pm at Welk Resort", Event.Weekday.Monday));
 
-        eventsList.add(new Event("Rhymes and Reading story time (ages 4-5)- Escondido Public Library 11am", Event.Weekday.Monday));
+        eventsList.add(new Event("Rhymes and Reading story time (ages 4-5)- Escondido Public Library 11-11:30a",
+                Event.Weekday.Monday));
+
+
+        eventsList.add(new Event("Knights Realm Chess Club (ages 6-12)- Escondido Public Library 3:30-5:30p",
+                Event.Weekday.Monday));
 
 
         eventsList.add(new Event("Farmer's market- 2:30-6:30 pm on Grand ave", Event.Weekday.Tuesday));

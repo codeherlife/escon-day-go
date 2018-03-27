@@ -32,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
         eventsList.add(new Event("Knights Realm Chess Club (ages 6-12)- Escondido Public Library 3:30-5:30p",
                 Event.Weekday.Monday));
 
+        eventsList.add(new Event("San Diego Comic-Con Adult Graphic Novel Book Club- Escondido Public Library " +
+                " Pioneer Room- 6-7:30p- every third Monday",
+                Event.Weekday.Monday));
+
 
         eventsList.add(new Event("Escondido Writers Group (adults)- Escondido Public Library 1-4p- Every first Tuesday",
                 Event.Weekday.Tuesday));

@@ -70,7 +70,8 @@ public class MainActivity extends AppCompatActivity {
                 Event.Weekday.Thursday));
 
 
-        eventsList.add(new Event("Crusing Grand on Grand Avenue from Orange to Ivy Streets, 5-9p", Event.Weekday.Friday));
+        eventsList.add(new Event("Crusing Grand on Grand Avenue from Orange to Ivy Streets, 5-9p, " +
+                "April through September", Event.Weekday.Friday));
 
         eventsList.add(new Event("Children's story time- 11am, Barnes and Nobles on Valley Parkway", Event.Weekday.Saturday));
 

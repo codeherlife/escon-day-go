@@ -47,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
 
         eventsList.add(new Event("Toddler Tales story time- Escondido Public Library, 11am", Event.Weekday.Thursday));
 
+        eventsList.add(new Event("Read to a Dragon (ages 5-12)- Escondido Public Library 2:30-4p- every second Thursday",
+                Event.Weekday.Thursday));
+
+
         eventsList.add(new Event("Crusing Grand", Event.Weekday.Friday));
 
         eventsList.add(new Event("Children's story time- 11am, Barnes and Nobles on Valley Parkway", Event.Weekday.Saturday));

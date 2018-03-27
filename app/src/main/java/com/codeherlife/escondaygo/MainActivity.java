@@ -68,6 +68,9 @@ public class MainActivity extends AppCompatActivity {
 
         eventsList.add(new Event("2nd Saturday Concert Series (all ages)- Escondido Public Library 3-4:30p- every second Saturday",
                 Event.Weekday.Saturday));
+        eventsList.add(new Event("Rincon Literario Bilingual Book Club (adults)- Escondido Public Library 10:30-11:45a- " +
+                "every third Saturday",
+                Event.Weekday.Saturday));
 
 //        eventsList.add("Monday");
 //        eventsList.add("Tuesday");

@@ -50,6 +50,9 @@ public class MainActivity extends AppCompatActivity {
         eventsList.add(new Event("Read to a Dragon (ages 5-12)- Escondido Public Library 2:30-4p- every second Thursday",
                 Event.Weekday.Thursday));
 
+        eventsList.add(new Event("Safe Space Escondido (ages 12-17)- Escondido Public Library 4:15-5:45p- every second Thursday",
+                Event.Weekday.Thursday));
+
 
         eventsList.add(new Event("Crusing Grand", Event.Weekday.Friday));
 

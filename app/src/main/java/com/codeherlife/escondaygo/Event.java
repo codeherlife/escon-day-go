@@ -20,7 +20,7 @@ public class Event {
     public Event (String name, Weekday day){
 
         this.name = name;
-        this.day = this.day;
+        this.day = day;
     }
 
     public String name;
